@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
         with:
-          go-version: latest
+          go-version: stable
       - run: go version
